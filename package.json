@@ -1,6 +1,6 @@
 {
   "name": "strings-utils-library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library contains helpful utils for strings.",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matwjablonski/strings-library.git"
+    "url": "git+https://github.com/matwjablonski/strings-utils-library.git"
   },
   "author": "Mateusz Jabłoński",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matwjablonski/strings-library/issues"
+    "url": "https://github.com/matwjablonski/strings-utils-library/issues"
   },
-  "homepage": "https://github.com/matwjablonski/strings-library#readme",
+  "homepage": "https://github.com/matwjablonski/strings-utils-library#readme",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
