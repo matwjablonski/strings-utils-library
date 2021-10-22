@@ -1,1 +1,5 @@
-export { default as isFirstCharUppercase } from './isFirstCharUppercase';
+const isFirstCharUppercase = require('./isFirstCharUppercase');
+
+module.exports = {
+    isFirstCharUppercase
+}

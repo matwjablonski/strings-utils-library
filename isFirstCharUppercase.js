@@ -11,4 +11,4 @@ const isFirstCharUppercase = checkedString => {
     throw new Error('Input is not a string or is an empty string');
 }
 
-export default isFirstCharUppercase;
+module.exports = isFirstCharUppercase;
