@@ -1,5 +1,9 @@
-const isFirstCharUppercase = require('./isFirstCharUppercase');
+const isFirstCharUppercase = require('./lib/isFirstCharUppercase');
+const isStringWithValue = require('./lib/isStringWithValue');
+const setStringCapitalized = require('./lib/setStringCapitalized');
 
 module.exports = {
-    isFirstCharUppercase
+    isFirstCharUppercase,
+    isStringWithValue,
+    setStringCapitalized,
 }
