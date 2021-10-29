@@ -4,12 +4,21 @@ import { errors } from '../helpers'
 const { NOT_OR_WRONG_VALUE } = errors;
 
 describe('isFirstCharUppercase', () => {
+
     test('should return false when first letter is lowercase', () => {
         expect(isFirstCharUppercase('lorem ipsum')).toBe(false);
     });
 
     test('should return true when first letter is lowercase', () => {
         expect(isFirstCharUppercase('Lorem ipsum')).toBe(true);
+    });
+
+    test('a', () => {
+        expect(isFirstCharUppercase(new String('Lorem ipsum'))).toBe(true);
+    });
+
+    test('b', () => {
+        expect(() => isFirstCharUppercase(new String(''))).toThrowError(NOT_OR_WRONG_VALUE);
     });
 
     test('should return an error when passed string is an empty string', () => {
